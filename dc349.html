@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./stylea.css">
+
+<title>Positioning</title>
+<style>
+
+
+</style>
+</head>
+<body>
+
+<!-- nav bar -->
+
+<div class="nav">
+    <div class="logo">
+            <h2><span class="log1">eBooks</span><span class="log2">4sale</span></h2>
+           
+    </div>
+    <div class="hamburger" onclick="myFunction()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+
+    </div>
+
+
+    <div class="topnav" id="myTopnav">
+      <a href="https://ebooksf4rsale.com/">Home</a>
+
+      <!-- dropdpwn -->
+     
+      <div class="dropdown">
+        <button class="dropbtn">Ebooks 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="https://ebooksf4rsale.com/ebooks">PDF Format</a>
+          <a href="https://ebooksf4rsale.com/ebooks-epub">Epub Format</a>
+          <a href="https://ebooksf4rsale.com/ebooks-multigenre">Multi-Genre</a>
+          
+        </div>
+      </div> 
+   
+      <!-- dropdown -->
+
+      <a href="https://ebooksf4rsale.com/promo" >Promo</a>
+      <a href="https://ebooksf4rsale.com/about" >About Us</a>
+      <a href="https://ebooksf4rsale.com/contact" >Contact Us</a>
+      <a href="https://ebooksf4rsale.com/faq" >FAQ</a>
+     
+    </div>
+    </div>
+
+
+    <div class="topnav2" id="myTopnav2">
+        <a href="https://ebooksf4rsale.com/">Home</a>
+
+         <!-- dropdpwn -->
+    
+      <div class="dropdown">
+        <button class="dropbtn">Ebooks 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="https://ebooksf4rsale.com/ebooks">PDF Format</a>
+          <a href="https://ebooksf4rsale.com/ebooks-epub">Epub Format</a>
+          <a href="https://ebooksf4rsale.com/ebooks-multigenre">Multi-Genre</a>
+         
+        </div>
+      </div> 
+
+      <!-- dropdown -->
+      
+        <a href="https://ebooksf4rsale.com/promo" >Promo</a>
+        <a href="https://ebooksf4rsale.com/about" >About Us</a>
+        <a href="https://ebooksf4rsale.com/contact" >Contact Us</a>
+        <a href="https://ebooksf4rsale.com/faq" >FAQ</a>
+      </div>
+
+
+
+<!--nav bar  -->
+
+
+<div class="back">
+    
+    
+</div>
+
+<div class="context">
+   <!--  -->
+   <div class="card">
+    <div>
+    <img src="./positioning.jpg">
+    </div>
+    <div class="card-content">
+       <div id="text">
+        
+        <h3 class="price"><span id="price1">Price:</span><span>&#36;</span>6 <s id="previous">&#36;9.99</s></h3>
+    </div>
+    <div>
+        <a href="./co349.html" class="btn">Buy Now</a>
+    </div>
+</div>
+</div>
+   <!--  -->
+
+<div class="right">
+    <h2>Positioning: The Battle for Your Mind</h2>
+    
+
+    <div class="author">
+      <p>by Al Ries (Author), Jack Trout (Author), Philip Kotler (Foreword)</p>
+      <p>Format: <span>PDF</span></p>
+      </div>
+   
+    <hr>
+    <p>The first book to deal with the problems of communicating to a skeptical, media-blitzed public, Positioning describes a revolutionary approach to creating a "position" in a prospective customer's mind-one that reflects a company's own strengths and weaknesses as well as those of its competitors. Writing in their trademark witty, fast-paced style, advertising gurus Ries and Trout explain how to:</p>
+    <p>
+        <ul class="nobullets">
+            <li>Make and position an industry leader so that its name and message wheedles its way into the collective subconscious of your market-and stays there</li>
+            <li>Position a follower so that it can occupy a niche not claimed by the leader</li>
+            <li>Avoid letting a second product ride on the coattails of an established one.</li>
+
+        </ul>
+    </p>
+    <p>Positioning also shows you how to:</p>
+    <p>
+        <ul class="nobullets">
+            <li>Use leading ad agency techniques to capture the biggest market share and become a household name</li>
+            <li>Build your strategy around your competition's weaknesses</li>
+            <li>Reposition a strong competitor and create a weak spot</li>
+            <li>Use your present position to its best advantage</li>
+            <li>Choose the best name for your product</li>
+            <li>Determine when-and why-less is more</li>
+            <li>Analyze recent trends that affect your positioning.</li>
+
+        </ul>
+    </p>
+    <p>Ries and Trout provide many valuable case histories and penetrating analyses of some of the most phenomenal successes and failures in advertising history. Revised to reflect significant developments in the five years since its original publication, Positioning is required reading for anyone in business today.</p>
+
+    
+
+
+
+    <hr>
+    <br>
+    <br>
+    
+</div>
+
+</div>
+
+<script>
+
+    hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function() {
+        topNav = document.querySelector(".topnav2");
+        topNav.classList.toggle("active");
+    }
+  
+  
+        function myFunction() {
+          var x = document.getElementById("myTopnav2");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+
+</body>
+</html>
